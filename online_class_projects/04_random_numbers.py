@@ -1,4 +1,4 @@
-# # # # # # # USING FOR LOOP # # # # # # # #
+# # # # # # # USING FOR LOOP # # # # # # #
 
 import random
 
