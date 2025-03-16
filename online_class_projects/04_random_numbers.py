@@ -22,7 +22,7 @@ if __name__ == '__main__':
     main()
 
 
-# # # # # # # USING WHILE LOOP # # # # # # #
+# # # # # # USING WHILE LOOP # # # # # #
 
 # import random
 
