@@ -3,7 +3,6 @@
 import random
 
 def main() -> None:
-    user_guessing()
     computer_guessing(10)
 
 def computer_guessing(x: int):
@@ -20,15 +19,6 @@ def computer_guessing(x: int):
             low = guess + 1
             print("Computer guessed lower!")
     print("Computer guessed it right!")
-
-def user_guessing():
-    random: int = random_number(10)
-    while True:
-        guess: int = int(input("Guess the number: "))
-        guessing_level(random, guess)
-        if random == guess:
-            print("You guessed it right!")
-            break
 
 def random_number(num: int) -> int:
     rnd: int = int(random.random() * num)
