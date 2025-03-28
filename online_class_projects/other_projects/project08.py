@@ -15,21 +15,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-# import streamlit as st
-
-# def main() -> None:
-#     st.title("BMI Calculator")
-#     weight = st.number_input("Enter your weight (in kgs)")
-#     height = st.number_input("Enter your height (in meters)")
-#     bmi = weight / (height ** 2)
-#     st.write(f"Your BMI is {bmi}")
-
-# if __name__ == '__main__':
-
-#     main()
