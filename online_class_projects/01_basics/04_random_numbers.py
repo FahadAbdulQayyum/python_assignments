@@ -12,8 +12,8 @@ def main() -> None:
     for _ in range(MIN_VALUE, N_NUMBERS):
         random = random_number(MAX_VALUE)
         num_array.append(random)
-        print(num_array)
- 
+    print(num_array)
+
 def random_number(num: int) -> int:
     rnd: int = int(random.random() * num)
     return rnd
